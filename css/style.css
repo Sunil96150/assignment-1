@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* NEW devloper style */
 
 .new-devloper{
@@ -227,4 +231,79 @@
     height: 250px;
     border-radius: 15px;
     padding: 20px;
+}
+
+/* style support section */
+
+.support{
+    width: 1150px;
+    height: 300px;
+    margin-left: 30px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/handshake.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% ;
+}
+
+.support-header{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+   margin: 100px 0px 0px 350px;
+    color: white;
+    padding-top: 50px;
+  
+}
+
+.support-description{
+    color:rgb(176, 173, 173);
+    font-size: 16px;
+    padding-bottom: 8px;
+    text-align: center;
+    width: 800px;
+    margin-left: 190px;
+}
+
+.support-container{
+    display: flex;
+   justify-content: center;
+   gap: 10px ;
+}
+ 
+
+.input-name {
+    width: 400px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 8px;
+    color: #4b4b4d;
+}
+
+.input-submit{
+    width: 100px;
+    height: 45px;
+    margin-right: 120px;
+    border-radius: 8px;
+    font-weight: bold;
+    
+}
+
+/* icons styles */
+
+.commitment{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px 50px 30px;
+    width: 1150px;
+    height: 100px;
+    background-color: rgb(251, 250, 249);
+    
+}
+.commitment-container{
+    padding: 30px;
+}
+
+.icons{
+    padding: 30px;
 }
