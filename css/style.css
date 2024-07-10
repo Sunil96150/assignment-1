@@ -160,3 +160,71 @@
     align-items: center;
     margin-left: 250px;
 }
+
+/* my target style */
+
+.my-target-header{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    margin-left: 360px;
+}
+
+.my-target-description{
+    color: #4b4b4d;
+    font-size: 18px;
+    padding-bottom: 8px;
+    text-align: center;
+    width: 800px;
+    margin-left: 200px;
+}
+
+.my-target-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 40px;
+    width: 1150px;
+}
+
+.my-html{
+    border: 2px solid white;
+    background-color: rgb(255, 244, 246);
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.my-html-header{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.my-html-description{
+    color:  #4b4b4de1;
+}
+
+.my-html-link{
+    color: black;
+}
+
+
+.my-css{
+    border: 2px solid white;
+    background-color: #e9f0fdeb;
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.my-js{
+    border: 2px solid white;
+    background-color:#fcf9e9e7;
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 20px;
+}
