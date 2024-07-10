@@ -88,12 +88,14 @@ html{
 .coding-world{
     margin:15px 50px;
     width: 750px;
+    /* height: 100px; */
     display: flex;
     justify-content: space-around;
     gap:10%;
     padding: 30px 90px; 
     background-color: white;
     border-radius: 8px;
+    margin-left: 110PX;
 }
 
 
@@ -130,6 +132,7 @@ html{
     padding: 30px 90px; 
     background-color: white;
     border-radius: 8px;
+    margin-left: 110PX;
 }
 
 .modern-web-header{
