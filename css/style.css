@@ -56,10 +56,10 @@ html{
 /* web devloper style */
 
 .web-devloper{
-    margin: 50px 80px;
+    margin: 50px 0px 50px 30px;
     background-color: rgb(249, 248, 248);
     border-radius: 8px;
-    width: 1100px;
+    width: 1150px;
     height: 1330px;
 }
 
@@ -231,6 +231,7 @@ html{
     height: 250px;
     border-radius: 15px;
     padding: 20px;
+    margin-right: 20px;
 }
 
 /* style support section */
@@ -294,7 +295,7 @@ html{
 .commitment{
     display: flex;
     justify-content: space-between;
-    margin: 10px 20px 50px 30px;
+    margin: 10px 20px 0px 30px;
     width: 1150px;
     height: 100px;
     background-color: rgb(251, 250, 249);
