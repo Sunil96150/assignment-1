@@ -21,7 +21,7 @@
 
 .new-devloper-header{
     text-align: center;
-    font-weight: 800;
+    font-weight: bold;
     font-size: 40px;
     width: 700px;
     margin-left: 210px;
@@ -34,17 +34,129 @@
 }
 
 .new-devloper-btn{
-    width: 240;
-    height: 70;
+    width: 200px;
+    height: 50px;
     color: white;
     background-color: #0D1321;
     padding: 10px;
     border-radius: 8px;
-    margin-left: 520px;
+    margin-left: 500px;
 }
 
 .new-devloper-btn >a{
     color: white;
     background: none;
     text-decoration: none;
+}
+
+/* web devloper style */
+
+.web-devloper{
+    margin: 50px 80px;
+    background-color: rgb(249, 248, 248);
+    border-radius: 8px;
+    width: 1100px;
+    height: 1330px;
+}
+
+.web-devloper-header{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.web-devloper-discription{
+    color: #4b4b4d;
+    text-align: center;
+    margin: 5px 40px;
+    font-size: 18px;
+} 
+
+/* coding world */
+.coding-world{
+    margin:15px 50px;
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    gap:10%;
+    padding: 30px 90px; 
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.coding-world-header{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.coding-world-discription{
+    color: #4b4b4d;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.coding-world-btn{
+    text-decoration: none;
+    border: 1px solid #0D1321;
+    color: #4b4b4d ;
+    padding: 12px;
+}
+
+/* modern-web */
+
+.modern-web{
+    margin:15px 50px;
+    width: 750px;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-around;
+    gap:10%;
+    padding: 30px 90px; 
+    background-color: white;
+    border-radius: 8px;
+}
+
+.modern-web-header{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.modern-web-description{
+    color: #4b4b4d;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.modern-web-btn{
+    text-decoration: none;
+    border: 1px solid #0D1321;
+    color: #4b4b4d ;
+    padding: 12px;
+}
+
+
+/* my inspiration */
+
+.my-inspiration-header{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    margin-left: 360px;
+}
+
+.my-inspiration-disription{
+    color: #4b4b4d;
+    font-size: 18px;
+    padding-bottom: 8px;
+    text-align: center;
+    width: 800px;
+    margin-left: 200px;
+}
+
+.my-inspiration-video{
+    align-items: center;
+    margin-left: 250px;
 }
