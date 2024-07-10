@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+/* NEW devloper style */
+
+.new-devloper{
+    width: 1200px;
+    height: 530px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.new-devloper-img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 17%;
+}
+
+.new-devloper-header{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    width: 700px;
+    margin-left: 210px;
+}
+
+.new-devloper-discription{
+    width: 700px;
+    margin-left: 210px;
+    color: #4b4b4d;
+}
+
+.new-devloper-btn{
+    width: 240;
+    height: 70;
+    color: white;
+    background-color: #0D1321;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 520px;
+}
+
+.new-devloper-btn >a{
+    color: white;
+    background: none;
+    text-decoration: none;
+}
